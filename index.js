@@ -7,7 +7,6 @@ db(() => {
     const app = express()
     const ProjectsSchema = new mongoose.Schema({
         name: String,
-        cover: Array,
         description: String,
         author: String,
         lang: String
